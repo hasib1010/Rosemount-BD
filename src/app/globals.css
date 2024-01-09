@@ -3,8 +3,22 @@
 @tailwind utilities;
 
 
+* {
+  font-family: 'Open Sans';
+}
+
+/* variables */
+:root {
+  --primary-color: #25B15F;
+  --secondary-color: #0A0A0A;
+}
+
+.primary-bg {
+  color: var(--primary-color);
+}
+
 /* loader */
-.loader{
+.loader {
   height: 35px;
   width: 35px;
   border-radius: 50%;
@@ -15,49 +29,82 @@
   animation: 2s infinite loader;
 }
 
+/* active style */
+.active {
+  color: var(--primary-color) !important
+}
+
+/* button */
+
+/* tailwind css */
+@layer base {
+
+  /* button */
+  .button {
+    @apply text-white text-[14px] bg-[#25B15F] rounded-full font-bold py-4 px-6
+  }
+  .nav:hover ul li a {
+    @apply text-[#bdbdbd]
+  }
+
+  .nav ul li a {
+    @apply inline-block py-6 px-4
+  }
+
+  .nav ul li a:hover {
+    @apply opacity-100 text-[#0A0A0A]
+  }
+}
+
 /* normal css */
-.table_content:hover{
-  background-color: rgba(76,2,3,.1);
+.table_content:hover {
+  background-color: rgba(76, 2, 3, .1);
 }
 
 
 
-@keyframes loader{ 
-  0%{
-      transform: rotate(0deg);
+/* container */
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
   }
-  100%{
-      transform: rotate(360deg);
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 
 /* container */
-.container{
-  max-width: 1440px;
+.container {
+  max-width: 1340px;
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width:1500px) {
-  .container{
+  .container {
     width: 100%;
     padding-left: 3rem;
     padding-right: 3rem;
   }
 }
+
 @media screen and (max-width:1000px) {
-  .container{
+  .container {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
+
 @media screen and (max-width:700px) {
-  .container{
+  .container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
+
 @media screen and (max-width:500px) {
-  .container{
+  .container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
