@@ -43,6 +43,7 @@
   .button {
     @apply text-white text-[14px] bg-[#25B15F] rounded-full font-bold py-4 px-6
   }
+  
   .nav:hover ul li a {
     @apply text-[#bdbdbd]
   }
