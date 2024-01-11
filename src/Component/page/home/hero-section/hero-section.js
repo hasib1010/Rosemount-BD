@@ -6,7 +6,7 @@ import HeroFrom from "./hero-from";
 const HeroSection = () => {
   return (
     <div className="overflow-hidden relative py-44">
-      <Image src={banner1} alt="banner-1" className="absolute top-0 -z-20" />
+      <Image src={banner1} alt="banner-1" className="absolute top-0 z-20" />
       <div className="container flex justify-between">
         <HeroContent />
         <HeroFrom/>
