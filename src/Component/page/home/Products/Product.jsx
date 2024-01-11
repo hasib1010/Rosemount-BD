@@ -21,10 +21,11 @@ const Product = ({
                     <h4 className="card-main-title mt-8 font-bold text-xl uppercase text-gray-800">{title}<span className='text-red-500'>{origin}</span></h4>
                 </div>
                 <p className="card-content text-gray-600 mt-[20px] leading-[22px] text-[16px]">{cardDescription}</p>
-                <a href="#" className="read-more-btn">More</a>
+                {/* <a href="#" className="read-more-btn">More</a> */}
+                <button className="text-white text-[14px] !bg-red-500 before:bg-red-500 font-bold py-2 mt-4 px-10 button-hover">More</button>
             </div>
             <span className="after"></span>
-    </Link>
+        </Link>
     );
 };
 

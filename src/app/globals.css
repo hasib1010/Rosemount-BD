@@ -143,34 +143,6 @@
   bottom: calc(100% + 30px);
 }
 
-
-
-.read-more-btn {
-  border: 2px solid #db3236;
-  font-size: 14px;
-  cursor: pointer;
-  padding: 10px 20px;
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-  font-weight: 600;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  background: #db3236;
-  color: #fff;
-  border-radius: 2px;
-  margin-top: 25px;
-  text-decoration: none;
-}
-
-.read-more-btn:hover {
-  background: transparent;
-  color: #db3236;
-
-}
-
 .shape-box_half>.after {
   position: absolute;
   top: 0;
