@@ -78,8 +78,7 @@
 /* container */
 .container {
   max-width: 1340px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 
@@ -112,7 +111,7 @@
 
 
 .shape-box {
-  margin: 30px 10px 30px;
+  /* margin: 10px 10px 10px; */
   box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .12);
 }
 

@@ -14,8 +14,8 @@ const Products = () => {
     return (
         <div>
             <h1 className='text-center my-10 text-7xl font-bold hover:text-green-400'>Our Products</h1>
-            <hr className='border-2 border-green-700  w-48 mx-auto' />
-            <div className='my-32 container mx-auto'>
+            <hr className='border-2 border-green-700  w-48 mx-auto mb-10' />
+            <div className='container grid grid-cols-3 gap-4'>
                 <Product cardNo={"02"} imgSrc={product3} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Complete Lift "} origin={"(Imported)"} ></Product>
                 <Product cardNo={"03"} imgSrc={product4} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Door Mechanism"} origin={"(Imported)"}></Product>
                 <Product cardNo={"04"} imgSrc={product2} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Complete Cabin"} origin={"(Imported)"}></Product>
