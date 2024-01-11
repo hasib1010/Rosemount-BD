@@ -82,6 +82,33 @@
   margin-right: auto;
 }
 
+
+.button-hover {
+  position: relative;
+  color: #ffffff;
+  overflow: hidden;
+  background-color:  #25B15F;
+  z-index: 1;
+}
+
+.button-hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #25B15F; /* Initial color */
+  transition: right 0.2s ease-out, background 0.2s ease-out; /* Transition effects */
+  z-index: -1;
+}
+
+.button-hover:hover::before {
+  right: 0; /* Change right property on hover to create the sliding effect */
+  background: #0A0A0A; /* Change background color on hover */
+
+}
+
 @media screen and (max-width:1500px) {
   .container {
     width: 100%;

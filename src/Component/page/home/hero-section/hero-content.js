@@ -12,7 +12,7 @@ const HeroContent = () => {
         We are focused on providing our clients with the highest level of
         quality and customer support.
       </p>
-      <Button className="button">Read More</Button>
+      <Button className="button button-hover">Read More</Button>
     </div>
   );
 };
