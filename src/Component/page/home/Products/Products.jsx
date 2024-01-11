@@ -15,16 +15,16 @@ const Products = () => {
         <div>
             <h1 className='text-center my-10 text-7xl font-bold hover:text-green-400'>Our Products</h1>
             <hr className='border-2 border-green-700  w-48 mx-auto' />
-            <div className='grid lg:grid-cols-3 grid-cols-1 gap-10  my-32 container mx-auto'>
-                <Product imgSrc={product3} title={"Complete Lift "} origin={"(Imported)"}></Product>
-                <Product imgSrc={product4} title={"Door Mechanism"}></Product>
-                <Product imgSrc={product2} title={"Complete Cabin"} origin={"(Imported)"}></Product>
-                <Product imgSrc={product1} title={"All Kind Of Spare Parts"}></Product>
-                <Product imgSrc={product5} title={"Controllers & Eleteic Parts"}></Product>
-                <Product imgSrc={product6} title={"Elevator Safety Components"}></Product>
-                <Product imgSrc={product8} title={"Montanari Motors"}></Product>
-                <Product imgSrc={product9} title={"Sicor Motors"}></Product>
-                <Product imgSrc={product7} title={"Monadrive Motors"}></Product>
+            <div className='my-32 container mx-auto'>
+                <Product cardNo={"02"} imgSrc={product3} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Complete Lift "} origin={"(Imported)"} ></Product>
+                <Product cardNo={"03"} imgSrc={product4} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Door Mechanism"} origin={"(Imported)"}></Product>
+                <Product cardNo={"04"} imgSrc={product2} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Complete Cabin"} origin={"(Imported)"}></Product>
+                <Product cardNo={"05"} imgSrc={product1} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"All Kind Of Spare Parts"} origin={"(Imported)"}></Product>
+                <Product cardNo={"06"} imgSrc={product5} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Controllers & Eleteic Parts"} origin={"(Imported)"}></Product>
+                <Product cardNo={"07"} imgSrc={product6} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Elevator Safety Components"} origin={"(Imported)"}></Product>
+                <Product cardNo={"08"} imgSrc={product8} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Montanari Motors"} origin={"(Imported)"}></Product>
+                <Product cardNo={"09"} imgSrc={product9} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Sicor Motors"} origin={"(Imported)"}></Product>
+                <Product cardNo={"10"} imgSrc={product7} cardDescription={"Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."} title={"Monadrive Motors"} origin={"(Imported)"}></Product>
             </div>
         </div>
     );
