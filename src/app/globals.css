@@ -116,6 +116,75 @@
   background: #0A0A0A; /* Change background color on hover */
 
 }
+/* cards section */
+
+
+.shape-box {
+  margin: 30px 10px 30px;
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .12);
+}
+
+.shape-box_half:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: skewY(90deg);
+  transform-origin: bottom top;
+  transition: \transform .6s;
+  background: #fff;
+  z-index: 1;
+}
+
+
+.shape-box_half .fig-caption {
+  padding: 0 30px 30px;
+  transition: \transform .6s;
+  transform: translateY(100%);
+  z-index: 3;
+}
+
+.shape-box_half .fig-caption .show-cont {
+  position: absolute;
+  bottom: calc(100% + 30px);
+}
+
+.shape-box_half>.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fdd744;
+  opacity: 0;
+  transition: opacity .6s;
+}
+
+/*On hover*/
+.shape-box_half:hover:before {
+  transform: skewY(20deg);
+}
+
+.shape-box_half:hover .fig-caption {
+  transform: translateY(0);
+}
+
+.shape-box_half:hover .fig-caption .show-cont {
+  bottom: 100%;
+}
+
+.shape-box_half:hover>.after {
+  opacity: 1;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width:1500px) {
   .container {
