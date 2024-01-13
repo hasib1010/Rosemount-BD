@@ -17,16 +17,16 @@ const Products = () => {
       <Heading>Our Product</Heading>
       <div className="container grid grid-cols-3 gap-4">
         <Product
-          cardNo={"02"}
+          cardNo={"01"}
           imgSrc={product3}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
           }
           title={"Complete Lift "}
-          origin={"(Imported)"}
+          origin={"(Intact Imported)"}
         ></Product>
         <Product
-          cardNo={"03"}
+          cardNo={"02"}
           imgSrc={product4}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
@@ -35,16 +35,16 @@ const Products = () => {
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"04"}
+          cardNo={"03"}
           imgSrc={product2}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
           }
           title={"Complete Cabin"}
-          origin={"(Imported)"}
+          origin={"(Intact Imported)"}
         ></Product>
         <Product
-          cardNo={"05"}
+          cardNo={"04"}
           imgSrc={product1}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
@@ -53,7 +53,7 @@ const Products = () => {
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"06"}
+          cardNo={"05"}
           imgSrc={product5}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
@@ -62,7 +62,7 @@ const Products = () => {
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"07"}
+          cardNo={"06"}
           imgSrc={product6}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
@@ -71,7 +71,7 @@ const Products = () => {
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"08"}
+          cardNo={"07"}
           imgSrc={product8}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
@@ -80,7 +80,7 @@ const Products = () => {
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"09"}
+          cardNo={"08"}
           imgSrc={product9}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
@@ -89,7 +89,7 @@ const Products = () => {
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"10"}
+          cardNo={"09"}
           imgSrc={product7}
           cardDescription={
             "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."

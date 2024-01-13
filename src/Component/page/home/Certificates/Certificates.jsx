@@ -4,6 +4,7 @@ import AOS from "aos";
 import Sicor from "./Sicor";
 import Mona from "./Mona";
 import Heading from "@/Component/ui/Heading";
+import 'aos/dist/aos.css';
 
 const Certificates = () => {
   useEffect(() => {
