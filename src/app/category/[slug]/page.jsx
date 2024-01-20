@@ -1,3 +1,4 @@
+import CategoryProducts from '@/Component/CategoryProducts/CategoryProducts';
 import { categoryItems } from '@/app/data/categoryitem';
 import React from 'react';
 
@@ -6,9 +7,9 @@ const page = ({ params }) => {
 
     console.log(category);
     return (
-        <div>
+        <div className='grid grid-cols-3 container mx-auto gap-10 '>
             {
-                category?.products.map(items=> <p className='text-xl'>d</p>)
+                category?.products.map(items=> <CategoryProducts items={items}></CategoryProducts>)
             }
         </div>
     );

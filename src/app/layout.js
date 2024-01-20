@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`min-h-screen flex flex-col ${inter.className}`}>
         <Navbar />
+        <div className="my-10">
         {children}
+        </div>
         <div className="mt-auto">
           <Footer />
         </div>

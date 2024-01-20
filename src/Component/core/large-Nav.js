@@ -11,7 +11,7 @@ const LargeNav = () => {
         <ActiveLink href="/about">About</ActiveLink>
       </li>
       <li>
-        <ActiveLink href="/about">Sicor Motor</ActiveLink>
+        <ActiveLink href="/contact">Contact Us</ActiveLink>
       </li>
     </ul>
   );
