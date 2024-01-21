@@ -9,7 +9,7 @@ const page = ({ params }) => {
     return (
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center container mx-auto gap-10 '>
             {
-                category?.products.map(items=> <CategoryProducts items={items}></CategoryProducts>)
+                category?.products.map(items=> <CategoryProducts key={items.title} items={items}></CategoryProducts>)
             }
         </div>
     );
