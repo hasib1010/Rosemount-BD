@@ -5,8 +5,8 @@ import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import B from "@/assets/home-page/2.jpg"
-import A from "@/assets/home-page/1.jpg"
+import B from "@/assets/home-page/2.JPG"
+import A from "@/assets/home-page/1.JPG"
 import C from "@/assets/home-page/3.png"
 import D from "@/assets/home-page/4.png"
 import E from "@/assets/home-page/5.png"
@@ -35,15 +35,15 @@ export default function Swiperx() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper w-full  mx-auto  mt-6"
       >
-        <SwiperSlide> <Image className='w-4/5  mx-auto' src={A}></Image> </SwiperSlide>
-        <SwiperSlide><Image className='w-4/5    mx-auto' src={B}></Image></SwiperSlide>
-        <SwiperSlide><Image className='w-4/5    mx-auto' src={C}></Image></SwiperSlide>
-        <SwiperSlide><Image className='w-4/5    mx-auto' src={D}></Image></SwiperSlide>
-        <SwiperSlide><Image className='w-4/5    mx-auto' src={E}></Image></SwiperSlide>
-        <SwiperSlide><Image className='w-4/5    mx-auto' src={F}></Image></SwiperSlide>
-        <SwiperSlide><Image className='w-4/5    mx-auto' src={G}></Image></SwiperSlide>
-        <SwiperSlide><Image className='w-4/5    mx-auto' src={H}></Image></SwiperSlide>
-        <SwiperSlide><Image className='w-4/5    mx-auto' src={I}></Image></SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5  mx-auto' src={A}></Image> </SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5    mx-auto' src={B}></Image></SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5    mx-auto' src={C}></Image></SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5    mx-auto' src={D}></Image></SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5    mx-auto' src={E}></Image></SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5    mx-auto' src={F}></Image></SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5    mx-auto' src={G}></Image></SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5    mx-auto' src={H}></Image></SwiperSlide>
+        <SwiperSlide><Image alt='Slider' className='w-4/5    mx-auto' src={I}></Image></SwiperSlide>
       </Swiper>
     </>
   );

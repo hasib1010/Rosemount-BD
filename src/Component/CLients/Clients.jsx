@@ -17,35 +17,35 @@ const Clients = () => {
             <Marquee className='mt-20' speed={100}>
                 <div className='flex gap-20 items-center justify-center'>
                     <div className='w-fit mx-auto'>
-                        <Image className='w-28 mx-auto' src={A}></Image>
+                        <Image className='w-28 mx-auto' src={A} alt='xxx'></Image>
                         <h1 className='w-fit mx-auto text-xl font-semibold'>SYSTECH <br /> Properties Ltd.</h1>
                     </div>
                     <div>
-                        <Image className='w-28 mx-auto' src={B}></Image>
+                        <Image className='w-28 mx-auto' src={B} alt='xxx'></Image>
                         <h1 className='w-fit mx-auto text-xl font-semibold'>H & S Engineering</h1>
                     </div>
                     <div>
-                        <Image className='w-28 mr-5' src={C}></Image>
+                        <Image className='w-28 mr-5' src={C} alt='xxx'></Image>
                     </div>
                     <div>
-                        <Image className='w-28 mr-5' src={D}></Image>
+                        <Image className='w-28 mr-5' src={D} alt='xxx'></Image>
                     </div>
                     <div>
-                        <Image className='w-28 mx-auto' src={E}></Image>
+                        <Image className='w-28 mx-auto' alt='xxx' src={E}></Image>
                         <h1 className='w-fit mx-auto text-xl font-semibold'>Maan Bangladesh LTD.</h1>
                     </div>
                     <div>
-                        <Image className='w-28 mx-auto' src={F}></Image>
+                        <Image className='w-28 mx-auto' alt='xxx' src={F}></Image>
                         <h1 className='w-fit mx-auto text-xl font-semibold'>Capital Elevator</h1>
                     </div>
                     <div>
-                        <Image className='w-28 mr-5' src={G}></Image>
+                        <Image className='w-28 mr-5' alt='xxx' src={G}></Image>
                     </div>
                     <div>
-                        <Image className='w-28 mr-5' src={H}></Image>
+                        <Image className='w-28 mr-5' alt='xxx' src={H}></Image>
                     </div>
                     <div>
-                        <Image className='w-28 mr-5' src={I}></Image>
+                        <Image className='w-28 mr-5' alt='xxx' src={I}></Image>
                     </div>
                 </div>
             </Marquee>
