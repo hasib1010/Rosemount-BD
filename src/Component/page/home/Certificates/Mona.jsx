@@ -5,7 +5,7 @@ const Mona = () => {
     return (
         <div className='max-w-[100vw]'>
         <div className=' flex'> 
-                <Image className='w-screen mx-6' src={mona} alt='Sicor Motor Certificate'></Image> 
+                <Image className='w-3/5 mx-auto' src={mona} alt='Sicor Motor Certificate'></Image> 
         </div>
     </div>
     );

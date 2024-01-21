@@ -22,24 +22,24 @@ const Certificates = () => {
           data-aos="fade-right"
         >
           <Sicor />
-          <div>
-            <h1 className="w-full text-center text-3xl my-4 font-medium">
-              {" "}
-              We are Authorized Sole Distributor of <br />{" "}
-              <span className="font-extrabold text-green-500">Sicor Motor</span>
-              <span className="italic font-semibold text-red-500">
-                {" "}
-                (Made in Italy)
-              </span>{" "}
-              in Bangladesh.
-            </h1>
+          <div> 
           </div>
         </div>
-
+        <h1 className="w-full text-center lg:text-3xl my-4 font-medium"> 
+          We are Authorized Sole Distributor of <br />{" "}
+          <span className="font-extrabold text-green-500">Sicor Motor</span>
+          <span className="italic font-semibold text-red-500"> 
+            (Made in Italy)
+          </span> 
+          in Bangladesh.
+        </h1>
         <div className="flex items-center gap-6" data-aos="fade-left">
           <Mona />
           <div>
-            <h1 className="w-full text-center text-3xl my-4 font-medium">
+           
+          </div>
+        </div>
+        <h1 className="w-full text-center lg:text-3xl my-4 font-medium">
               Authorized Sole Distributor of <br />{" "}
               <span className="font-extrabold text-black">MONADRIVE</span>
               <span className="italic font-semibold text-red-500">
@@ -48,8 +48,6 @@ const Certificates = () => {
               </span>{" "}
               in Bangladesh.
             </h1>
-          </div>
-        </div>
       </div>
     </div>
   );

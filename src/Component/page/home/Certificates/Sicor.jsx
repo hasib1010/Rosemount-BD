@@ -6,7 +6,7 @@ const Sicor = () => {
     <div className="max-w-[100vw]">
       <div className=" flex">
         <Image
-          className="w-screen mx-6"
+          className="w-3/5 mx-auto"
           src={sicor}
           alt="Sicor Motor Certificate"
         ></Image>

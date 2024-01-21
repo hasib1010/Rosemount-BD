@@ -7,7 +7,7 @@ const page = ({ params }) => {
 
     console.log(category);
     return (
-        <div className='grid grid-cols-3 container mx-auto gap-10 '>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center container mx-auto gap-10 '>
             {
                 category?.products.map(items=> <CategoryProducts items={items}></CategoryProducts>)
             }

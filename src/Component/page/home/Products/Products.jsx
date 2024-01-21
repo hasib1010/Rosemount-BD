@@ -15,7 +15,7 @@ const Products = () => {
   return (
     <div>
       <Heading>Our Product</Heading>
-      <div className="container grid grid-cols-3 gap-4">
+      <div className="container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
         <Product
           cardNo={"01"}
           imgSrc={product3}
