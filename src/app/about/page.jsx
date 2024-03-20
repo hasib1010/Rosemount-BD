@@ -46,7 +46,7 @@ function AboutUs() {
         As importers, we work tirelessly to curate a comprehensive range of lift systems and spare parts from trusted manufacturers around the world. Our extensive network allows us to offer a wide selection of products, ensuring that you have access to the best solutions for your lifting requirements.
         <br />
 
-        At Rosemount BD, customer satisfaction is our top priority. Our knowledgeable team is dedicated to assisting you in finding the right products to meet your needs, offering expert guidance and support throughout the process. Whether you're looking for complete lift systems or individual spare parts, we are here to help. <br />
+        At Rosemount BD, customer satisfaction is our top priority. Our knowledgeable team is dedicated to assisting you in finding the right products to meet your needs, offering expert guidance and support throughout the process. Whether you are looking for complete lift systems or individual spare parts, we are here to help. <br />
         As a general supplier, we take pride in our ability to deliver value and reliability to our customers. We understand the importance of efficiency and reliability in lift systems, and we strive to provide products that meet the highest standards of quality and performance.
         <br />
         Thank you for considering Rosemount BD as your trusted partner in sourcing lift systems and spare parts. We are committed to providing you with the best products and service, and we look forward to serving you for many years to come.
