@@ -9,6 +9,8 @@ import PhoneCallButton from './Call';
 import Whatsapp from './WhatsApp';
 import PhoneCallButton2 from './uttaraCall';
 import Whatsapp2 from './WhatsappUttara';
+import GoogleMapSearch from './HeadOfficeMap';
+import GoogleMapSearch2 from './UttaraOfficeMap';
 
 function Contact() {
     
@@ -21,8 +23,8 @@ function Contact() {
                 </div>
                 <div className='flex lg:flex-row flex-col-reverse gap-10 justify-center items-center'>
                     <div className='w-96 flex flex-col gap-8'>
-                        <p className='text-base flex items-center p-3 rounded-lg font-semibold border'> <IoLocationOutline className='text-red-600 text-xl mr-3' />
-                            107, Bir Uttam CR Datta Road (G.F.) <br /> Room No:5 <br /> Dhaka-1205, Bangladesh
+                        <p className='text-base flex items-center btn h-fit w-full p-3 rounded-lg font-semibold border'> <IoLocationOutline className='text-red-600 text-4xl mr-3' />
+                        <GoogleMapSearch />
                         </p>
                         
                         <PhoneCallButton phoneNumber="+8801712551357" />
@@ -38,8 +40,8 @@ function Contact() {
                 </div>
                 <div className='flex lg:flex-row-reverse flex-col-reverse gap-10 justify-center items-center'>
                     <div className='w-96 flex flex-col gap-8'>
-                        <p className='text-base flex items-center p-3 rounded-lg font-semibold border'> <IoLocationOutline className='text-red-600 text-xl mr-3' />
-                            Road No. 33 <br /> House No. 6, 1st Floor <br /> Sector-7 Uttara <br /> Dhaka-1230
+                        <p className='text-base btn h-fit w-full flex items-center p-3 rounded-lg font-semibold border'> <IoLocationOutline className='text-red-600 text-5xl mr-3' />
+                       <GoogleMapSearch2></GoogleMapSearch2>
                         </p>
                         
                         <PhoneCallButton2 phoneNumber="+8801712551357" />
