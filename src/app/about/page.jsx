@@ -10,7 +10,7 @@ function AboutUs() {
       {/* proprietor section */}
       <div className='flex lg:flex-row flex-col lg:items-end gap-7'>
         <div className='relative'>
-          <Image className='transition duration-300 ease-in-out grayscale hover:grayscale-0 border-4 border-black rounded-md' src={pikusir}></Image>
+          <Image className='transition duration-300 ease-in-out grayscale hover:grayscale-0 border-4 border-black rounded-md' alt='Rosemount BD Business Owner Md Mahbubur Rahman Piku' src={pikusir}></Image>
 
         </div>
         <div className='flex flex-col items-end'>
@@ -25,7 +25,7 @@ function AboutUs() {
       <br /><br /><br />
       <div className='flex lg:flex-row-reverse  flex-col lg:items-end gap-7'>
         <div className='relative'>
-          <Image className='transition duration-300 ease-in-out grayscale hover:grayscale-0 border-4 border-black rounded-md' src={khalidsir}></Image>
+          <Image className='transition duration-300 ease-in-out grayscale hover:grayscale-0 border-4 border-black rounded-md' alt='Rosemount BD CEO Mohammad Khalid Hossain Tarafder' src={khalidsir}></Image>
 
         </div>
         <div className='flex flex-col items-start'>
@@ -39,7 +39,7 @@ function AboutUs() {
       <hr className="border-gray-400 my-10 " />
       <div>
         <h3 className='text-center my-7 mt-32 text-7xl font-bold  text-black'>Operation Panel</h3>
-        <Image className='rounded-lg' src={team}></Image>
+        <Image className='rounded-lg' alt='Rosemount BD Operation Panel' src={team}></Image>
       </div>
       <p className='text-xl my-8 w-2/3 mx-auto'><span className='ml-20 font-bold'>Rosemount BD</span> specializes in sourcing and importing high-quality lift systems and spare parts to meet the diverse needs of our customers. With over a decade of experience in the industry, we have established ourselves as a reliable partner, providing top-notch products and exceptional service.
         <br />
