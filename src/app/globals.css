@@ -12,7 +12,9 @@
   --primary-color: #25B15F;
   --secondary-color: #0A0A0A;
 }
-
+body{
+  background: white !important ;
+}
 .primary-bg {
   color: var(--primary-color);
 }

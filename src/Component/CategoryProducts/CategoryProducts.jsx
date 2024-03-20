@@ -1,6 +1,5 @@
 "use client"
-import React from 'react';
-import blurImage from "@/assets/home-page/blur.webp"
+import React from 'react'; 
 import Image from 'next/image';
 const CategoryProducts = ({ items }) => {
     const { title, description, image } = items;
