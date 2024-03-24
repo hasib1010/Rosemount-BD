@@ -17,82 +17,81 @@ const Products = () => {
       <Heading>Our Product</Heading>
       <div className="container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
         <Product
-          cardNo={"01"}
+
           imgSrc={product3}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "World Class Brands. Sunny Elevator, Mozitor Elevator, Modern Fuji, Hariter Elevator"
           }
           title={"Complete Lift "}
           origin={"(Intact Imported)"}
         ></Product>
         <Product
-          cardNo={"02"}
           imgSrc={product4}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "Door Hanger, Door Operator, Door Panel and other door mechanism"
           }
           title={"Door Mechanism"}
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"03"}
+
           imgSrc={product2}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "Elevator Intact Complete Cabin. Modern and Elegant design. Directly from the manufacturer to your Hand."
           }
           title={"Complete Cabin"}
           origin={"(Intact Imported)"}
         ></Product>
         <Product
-          cardNo={"04"}
+
           imgSrc={product1}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "Complete Elevator solutions. Whole Lift and spare parts service. COP, LOP, Guide Rail, Display ETC...."
           }
           title={"All Kind Of Spare Parts"}
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"05"}
+
           imgSrc={product5}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "Electric parts like Controller, ARD, Inverter and many more"
           }
           title={"Controllers & Eleteic Parts"}
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"06"}
+
           imgSrc={product6}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "Elevator safety components as guide rail checker, Speed Governor, Hydraulic Buffer ETC..."
           }
           title={"Elevator Safety Components"}
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"07"}
+
           imgSrc={product8}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "World Class Elevator Motor From Montanari Group. Made In Italy. Manufacturer to your hand. Authentic products. "
           }
           title={"Montanari Motors"}
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"08"}
+
           imgSrc={product9}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "World Class Elevator Motor From Sicor Group. Made In Italy. Manufacturer to your hand. Authentic products."
           }
           title={"Sicor Motors"}
           origin={"(Imported)"}
         ></Product>
         <Product
-          cardNo={"09"}
+
           imgSrc={product7}
           cardDescription={
-            "Customer interactions, study and analysis of company branding through creative briefs. Creation of mock-up designs by using UI tools that simulate actions and pre-visualize the reactions."
+            "World Class Elevator Motor From Montanari Group. Made In Chaina.We are official sole agent in Bangladesh. Manufacturer to your hand. Authentic products."
           }
           title={"Monadrive Motors"}
           origin={"(Imported)"}

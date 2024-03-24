@@ -17,7 +17,7 @@ const Product = ({
             <div className="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
             <div className="fig-caption absolute left-0 right-0 bottom-0">
                 <div className="show-cont left-[30px] right-[30px] transition-bottom duration-[.6s]">
-                    <h3 className="card-no text-3xl text-[#ffc107] leading-none mt-10 mb-0">{cardNo}</h3>
+                    {/* <h3 className="card-no text-3xl text-[#ffc107] leading-none mt-10 mb-0">{cardNo}</h3> */}
                     <h4 className="card-main-title mt-8 font-bold lg:text-xl text-center uppercase text-gray-800">{title}<span className='text-red-500'>{origin}</span></h4>
                 </div>
                 <p className="card-content text-gray-600 mt-[20px] leading-[22px] text-[16px]">{cardDescription}</p>
